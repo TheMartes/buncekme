@@ -13,10 +13,10 @@ All of the markdown files are stored n storage/app/private/. Those are then bein
 Written in laravel, deployed via laravel cloud.
 
 ## Todo
-[ ] Add misc pages
-[ ] Write about page
-[ ] Finish Footer
-[ ] Add Reponsive-ish design
+- [ ] Add misc pages
+- [ ] Write about page
+- [ ] Finish Footer
+- [ ] Add Reponsive-ish design
 
 ## License
 MIT
