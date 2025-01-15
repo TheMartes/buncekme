@@ -13,6 +13,9 @@ class Misc extends Controller
             ->sortByDesc(function ($file) {
                 return Storage::lastModified($file);
             })
+            ->filter(function ($file) {
+                return strpos($file, '.md') === true;
+            })
             ->map(function ($file) {
                 $title = str_replace('.md', '', $file);
                 $title = explode('/', $title)[1];

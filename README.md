@@ -14,9 +14,10 @@ Written in laravel, deployed via laravel cloud.
 
 ## Todo
 - [x] Add misc pages
-- [ ] Write about page
+- [x] Write about page
 - [ ] Finish Footer
 - [ ] Add Reponsive-ish design
+- [ ] Add more links to About page
 
 ## License
 MIT

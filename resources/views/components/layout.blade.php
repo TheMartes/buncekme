@@ -8,8 +8,7 @@
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-        <link href="https://fonts.bunny.net/css?family=asar:400&display=swap" rel="stylesheet" />
+        <link href="https://fonts.bunny.net/css?family=dongle:300,400,700|gentium-book-basic:400,400i,700,700i" rel="stylesheet" />
 
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -27,19 +26,19 @@
                 <div class="about mb-8">
                     <h1 class="font-serif text-4xl">MB</h1>
                 </div>
-                <ul class="menu flex-col">
-                <li class="my-1 hover:text-blue-400"><a href="/">About</a></li>
-                <li class="my-1 hover:text-blue-400"><a href="/writing">Writing</a></li>
-                <li class="my-1 hover:text-blue-400"><a href="/misc">Misc</a></li>
+                <ul class="menu flex-col text-2xl">
+                    <li class=" hover:text-blue-400"><a href="/">About</a></li>
+                    <li class=" hover:text-blue-400"><a href="/writing">Writing</a></li>
+                    <li class=" hover:text-blue-400"><a href="/misc">Misc</a></li>
                 </ul>
             </div>
 
             <!-- main content -->
             <main class="flex-col w-full">
-                <div class="text-md font-serif prose">
+                <div class="text-md w-full font-serif prose">
                     {{ $slot }}
                 </div>
-                <footer class="mt-24 text-muted-foreground text-slate-400">
+                <footer class="mt-24 text-2xl text-slate-400">
                     &copy; 2025 Matej Bunček
                 </footer>
             </main>

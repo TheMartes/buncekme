@@ -12,17 +12,17 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-                serif: ['Asar', ...defaultTheme.fontFamily.serif],
+                sans: ['Dongle', ...defaultTheme.fontFamily.sans],
+                serif: ['Gentium Book Basic', ...defaultTheme.fontFamily.serif],
             },
             typography: (theme) => ({
                 DEFAULT: {
                     css: {
                         '--tw-prose-body': {
-                            fontFamily: ['Asar', ...defaultTheme.fontFamily.serif],
+                            fontFamily: ['Gentium Book Basic', ...defaultTheme.fontFamily.serif],
                         },
                         '--tw-prose-headings': {
-                            fontFamily: ['Figtree', ...defaultTheme.fontFamily.sans],
+                            fontFamily: ['Dongle', ...defaultTheme.fontFamily.sans],
                         },
                     }
                 },
