@@ -1,3 +1,3 @@
 <x-layout>
-<x-markdown>{{ $content }}</x-markdown>
+@markdown($content)
 </x-layout>

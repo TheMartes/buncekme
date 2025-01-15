@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\File;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Storage;
 
-class Writings extends Controller
+class Writing extends Controller
 {
     public function index()
     {
@@ -25,6 +25,7 @@ class Writings extends Controller
                 return [
                     'title' => $title,
                     'slug' => \strtolower($slug),
+                    'date' => Carbon::parse(Storage::lastModified($file))->format('F jS, Y'),
                 ];
             });
 

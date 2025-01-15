@@ -35,7 +35,7 @@
             </div>
 
             <!-- main content -->
-            <main class="flex-col">
+            <main class="flex-col w-full">
                 <div class="text-md font-serif prose">
                     {{ $slot }}
                 </div>
