@@ -34,12 +34,16 @@
             </div>
 
             <!-- main content -->
-            <main class="flex-col w-full">
-                <div class="text-md w-full font-serif prose">
+            <main class="flex-col">
+                <div class="text-md font-serif prose">
                     {{ $slot }}
                 </div>
-                <footer class="mt-24 text-2xl text-slate-400">
-                    &copy; 2025 Matej Bunček
+                <footer class="mt-24 text-2xl w-full flex justify-between text-slate-400 min-w-[400px]">
+                    <span>&copy; 2025 Matej Bunček</span>
+                    <div>
+                        <a href="https://github.com/themartes" target="_blank" class="text-blue-400 pr-2 hover:text-blue-300">GitHub</a>
+                        <a href="https://www.linkedin.com/in/buncekm" target="_blank" class="text-blue-400 hover:text-blue-300">LinkedIn</a>
+                    </div>
                 </footer>
             </main>
         </div>
